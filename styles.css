@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Anton";
+  background-image: url("https://i.imgur.com/SX0rCPc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  margin: 1em;
+  background-color: #f0eff4;
+}
+
+img {
+  height: 8em;
+  width: auto;
+}
+
+input {
+  height: 3em;
+  width: 4em;
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2 {
+  margin: 1em;
+}
+
+#holiday-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#results > * {
+  margin: 0.5em;
+}
